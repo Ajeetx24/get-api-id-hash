@@ -1,67 +1,56 @@
-# 🤖 Telegram API ID & API Hash Generator Bot  
 
-## 📜 درباره پروژه  
-این ربات به شما کمک می‌کند تا به راحتی و با استفاده از شماره تلفن خود، `API ID` و `API Hash` را از وبسایت رسمی تلگرام دریافت کنید.  
-✨ این ابزار برای توسعه‌دهندگان و افرادی که به ساخت اپلیکیشن‌های تلگرامی علاقه دارند طراحی شده است.  
+# 🤖 Telegram API ID & API Hash Generator Bot
 
+## 📜 Project Overview  
+This bot helps you easily obtain your `API ID` and `API Hash` from the official Telegram website using your phone number.  
+✨ This tool is designed for developers and anyone interested in building Telegram-based applications.
 
-
-## 🚀 ویژگی‌ها  
-✅ دریافت خودکار API ID و API Hash  
-✅ رابط کاربری ساده و کاربرپسند  
-✅ استفاده از ارتباط امن با وبسایت رسمی تلگرام  
+## 🚀 Features  
+✅ Automatically obtain API ID and API Hash  
+✅ Simple and user-friendly interface  
+✅ Secure connection with the official Telegram website  
 
 ---
 
-## ⚙️ نصب و اجرا  
+## ⚙️ Installation and Setup  
 
-### 🛠️ پیش‌نیازها  
-1. مطمئن شوید که **پایتون نسخه 3.8 یا بالاتر** روی سیستم شما نصب شده است.  
-2. دسترسی به اینترنت فعال برای اجرای ربات مورد نیاز است.  
+### 🛠️ Prerequisites  
+1. Make sure **Python version 3.8 or higher** is installed on your system.  
+2. Active internet connection is required to run the bot.
 
+### 📥 Installation Steps  
 
-
-### 📥 مراحل نصب  
-
-#### 1️⃣ کلون کردن مخزن  
-ابتدا پروژه را کلون کرده و به دایرکتوری آن بروید:  
+#### 1️⃣ Clone the repository  
+First, clone the project and navigate to its directory:  
   ```bash
   git clone https://github.com/cipherblack/get-api-id-hash.git
   cd get-api-id-hash
   ```
-## نصب وابستگی ها 
-نصب وابستگی‌ها تمامی کتابخانه‌های مورد نیاز در فایل requirements.txt لیست شده‌اند.
-برای نصب آن‌ها دستور زیر را اجرا کنید:
+
+## Install Dependencies  
+All required libraries are listed in the `requirements.txt` file. To install them, run the following command:
 
   ```bash
   pip install -r requirements.txt
   ```
 
-## وارد کردن اطلاعات
-ربات فایل main.py را باز کرده و مقادیر زیر را با اطلاعات خود جایگزین کنید
-API_ID
-API_HASH
-BOT_TOKEN
+## Entering Information  
+Open the `main.py` file and replace the following values with your own:
+- `API_ID`
+- `API_HASH`
+- `BOT_TOKEN`
 
-## اجرای ربات 
-برای اجرای ربات، دستور زیر را اجرا کنید
+## Running the Bot  
+To run the bot, execute the following command:  
   ```bash
   python main.py
   ```
 
+## Usage
 
+### Bot Commands
 
-## نحوه استفاده
-
-## دستورات داخل ربات
-
-/start - شروع به کار ربات و نمایش منوی اصلی.
-
-《 Get API ID & API Hash 》 - راهنمایی برای دریافت اطلاعات API
-
-《 Help 》 - توضیح نحوه استفاده از ربات
-
-《 Creator 》 - نمایش اطلاعات توسعه‌دهنده ربات
-
-
-
+- `/start` - Start the bot and display the main menu.  
+- `Get API ID & API Hash` - Guide on how to obtain API information.  
+- `/help` - Instructions on how to use the bot.  
+- `/creator` - Show the developer's information.
