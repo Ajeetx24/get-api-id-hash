@@ -25,21 +25,17 @@
 
 #### 1️⃣ کلون کردن مخزن  
 ابتدا پروژه را کلون کرده و به دایرکتوری آن بروید:  
-```bash
-
-git clone https://github.com/cipherblack/get-api-id-hash.git
-cd get-api-id-hash
-
-```
+  ```bash
+  git clone https://github.com/cipherblack/get-api-id-hash.git
+  cd get-api-id-hash
+  ```
 ## نصب وابستگی ها 
 نصب وابستگی‌ها تمامی کتابخانه‌های مورد نیاز در فایل requirements.txt لیست شده‌اند.
 برای نصب آن‌ها دستور زیر را اجرا کنید:
 
-```bash
-
-pip install -r requirements.txt
-
-```
+  ```bash
+  pip install -r requirements.txt
+  ```
 
 ## وارد کردن اطلاعات
 ربات فایل main.py را باز کرده و مقادیر زیر را با اطلاعات خود جایگزین کنید
@@ -49,11 +45,9 @@ BOT_TOKEN
 
 ## اجرای ربات 
 برای اجرای ربات، دستور زیر را اجرا کنید
-```bash
-
-python main.py
-
-```
+  ```bash
+  python main.py
+  ```
 
 
 
