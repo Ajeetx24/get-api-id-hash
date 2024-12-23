@@ -24,14 +24,14 @@
    ```bash
    git clone https://github.com/cipherblack/get-api-id-hash.git
    cd get-api-id-hash
-
+```
 2. ** نصب وابستگی ها **
 نصب وابستگی‌ها تمامی کتابخانه‌های مورد نیاز در فایل requirements.txt لیست شده‌اند.
 برای نصب آن‌ها دستور زیر را اجرا کنید:
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 3. ** وارد کردن اطلاعات **
 ربات فایل main.py را باز کرده و مقادیر زیر را با اطلاعات خود جایگزین کنید
@@ -43,7 +43,7 @@ BOT_TOKEN
 برای اجرای ربات، دستور زیر را اجرا کنید
 ```bash
 python main.py
-
+```
 
 
 
